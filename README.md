@@ -31,3 +31,7 @@ The steps of the program are:
 - Check if the appt is in November or December and on a weekend.
 - Check for the earliest appt. from a preferred doctor that satisfies constraints.
 - Keep record of the last appointment for each patient, so the next can be scheduled at least a week later.
+
+# Current State
+
+The program is fully implemented with each necessary piece present in the code. However, the requests being made to the POST /api/Scheduling/Schedule api endpoint for marking appointments are not working correctly. Currently a 500 error is most commonly returned. The issue is likely in incorrect formatting of the appointment json.
